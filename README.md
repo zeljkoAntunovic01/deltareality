@@ -4,7 +4,7 @@
 
 This project uses a lightweight Python environment based on:
 
-- Python 3.11
+- Python 3.12.8
 - `venv`
 - `pip`
 - `requirements.txt`
@@ -15,7 +15,7 @@ This project uses a lightweight Python environment based on:
 From the repository root:
 
 ```bash
-python3.11 -m venv .venv
+python3.12.8 -m venv .venv
 ```
 
 Activate the environment:
@@ -86,7 +86,7 @@ A reviewer can recreate the environment with:
 git clone <repository-url>
 cd <repository-name>
 
-python3.11 -m venv .venv
+python3.12.8 -m venv .venv
 source .venv/bin/activate
 
 python -m pip install --upgrade pip setuptools wheel
