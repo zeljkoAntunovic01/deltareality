@@ -1,2 +1,4 @@
 .venv/
 viewer/
+__pycache__/
+backups/
